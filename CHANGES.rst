@@ -4,7 +4,14 @@ ChangeLog
 +------------+---------------------------------------------------------------------+------------+
 | Version    | Description                                                         | Date       |
 +============+=====================================================================+============+
-| **2.5.0**  | * Drop support for Python 3.7                                       | TBD        |
+| **2.5.2**  | * cmdline.create_parser(): Allow pre-created parser                 | 2025/11/07 |
+|            | * Remove python2 compatibility code from util.py                    |            |
+|            | * Remove deprecated entries from setup.cfg                          |            |
++------------+---------------------------------------------------------------------+------------+
+| **2.5.1**  | * Drop support for Python 3.7                                       | 2025/07/20 |
+|            | * GPIO/SPI/FTDI dependencies are optional now and no longer         |            |
+|            |   installed by default (use pip install luma.core[gpio] instead)    |            |
+|            | * Switch from RPI.GPIO to rpi-lgpio for RPI5 support                |            |
 +------------+---------------------------------------------------------------------+------------+
 | **2.4.2**  | * Add support for spi-mode in cmdline                               | 2024/01/30 |
 +------------+---------------------------------------------------------------------+------------+
